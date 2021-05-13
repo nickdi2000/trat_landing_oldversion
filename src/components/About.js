@@ -28,14 +28,10 @@ const About = () => {
               <div className="about-content mt-110 mb-90">
                 <img src={abouticon} alt="" />
                 <h3>
-                  Simple And Easy Way To Learn About Your Main Business Throw
-                  Our <span>Apork App!</span>
+                  Hosting a trivia night should be <span>simple</span>
                 </h3>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever when an unknown printer took a galley
-                  of
+                  Instruct your players to navigate to TriviaRat.com/yourcode where they can enter their team name.  It's all downhill from there: just start announcing your questions and watch as the responses appear in real-time.
                 </p>
                 <Link to="" className="btn btn-type-2 mt-30">
                   Read More

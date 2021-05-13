@@ -22,7 +22,6 @@ const Home = () => {
       <main>
         <Hero />
         <About />
-        <Counter />
         <Features />
         <Video />
         <Screenshot />

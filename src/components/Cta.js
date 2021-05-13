@@ -15,12 +15,12 @@ const Cta = () => {
             <div className="col-xl-12 col-lg-12 col-md-12">
               <div className="cta-content">
                 <h3>
-                  WE Provide World Class Apps For Work <br />
-                  Just Get It <i className="fa fa-long-arrow-right"></i>
+                  Remember its FREE to signup!<br />
+                  Give it a shot! <i className="fa fa-long-arrow-right"></i>
                 </h3>
                 <div className="cta-btn float-right">
-                  <Link to="#" className="btn btn-type-4">
-                    purchase <i className="fa fa-download"></i>
+                  <Link to="/sign-up" className="btn btn-type-4">
+                    Sign-up <i className="fa fa-signup"></i>
                   </Link>
                 </div>
               </div>

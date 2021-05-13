@@ -22,10 +22,9 @@ const Features = () => {
           <div className="row">
             <div className="col-xl-8 col-lg-8 mx-auto">
               <div className="section-title text-center mb-80">
-                <h2>App Features</h2>
+                <h2>Features</h2>
                 <p>
-                  Lorem ipsum dolor sit amt, consectet adop adipisicing elit,
-                  sed do eiusmod more incididunt ugt labore.
+                  TriviaRat is dirt-simple at first glance. As you become more comfortable, you may decide to spice things up.
                 </p>
               </div>
             </div>
@@ -35,10 +34,9 @@ const Features = () => {
             <div className="col-xl-4 col-lg-4 col-md-4 wow fadeInLeft">
               <div className="single-features">
                 <img src={icon1} alt="featuresimg" />
-                <h3>Easy Customize</h3>
+                <h3>Game Options</h3>
                 <p>
-                  Simply dummy text of the printing and typesetting industry.
-                  Ipsum has been
+                  Experiment with classic pub trivia options such as "half-points".
                 </p>
                 <div className="features-shape">
                   <img src={ishape1} alt="featuresimg" />
@@ -49,10 +47,9 @@ const Features = () => {
             <div className="col-xl-4 col-lg-4 col-md-4 wow fadeInUp">
               <div className="single-features">
                 <img src={icon2} alt="featuresimg" />
-                <h3>Responsive Ready</h3>
+                <h3>Wagering</h3>
                 <p>
-                  Simply dummy text of the printing and typesetting industry.
-                  Ipsum has been
+                  Take your game up a notch by designing your own wagering rounds.
                 </p>
                 <div className="features-shape">
                   <img src={ishape2} alt="featuresimg" />
@@ -63,10 +60,9 @@ const Features = () => {
             <div className="col-xl-4 col-lg-4 col-md-4 wow fadeInRight">
               <div className="single-features">
                 <img src={icon3} alt="featuresimg" />
-                <h3>Cloud Storage</h3>
+                <h3>Pre-enter Questions</h3>
                 <p>
-                  Simply dummy text of the printing and typesetting industry.
-                  Ipsum has been
+                  Want to have your entire trivia night locked and loaded right on your phone?  Pre-enter everything into our system before-hand.
                 </p>
                 <div className="features-shape">
                   <img src={ishape3} alt="featuresimg" />

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ModalVideo from "react-modal-video";
-import videoimg from "../img/video/video-bg.jpg";
+import videoimg from "../img/video/video-bg.jpeg";
 import "react-modal-video/css/modal-video.min.css";
 const Video = () => {
   const [isOpen, setOpen] = useState(false);
@@ -10,7 +10,7 @@ const Video = () => {
         channel="youtube"
         autoplay
         isOpen={isOpen}
-        videoId="snvzakfcTmY"
+        videoId="ug_PJaubXDI"
         onClose={() => setOpen(false)}
       />
       <div
@@ -23,7 +23,7 @@ const Video = () => {
               <div className="apork-videos position-relative text-center">
                 <img src={videoimg} alt="" />
                 <div className="videos-icon-text">
-                  <h3>Watch Video</h3>
+                  <h3>Walkthrough</h3>
                   <div
                     className="popup-video wow pulse infinite"
                     onClick={() => setOpen(true)}

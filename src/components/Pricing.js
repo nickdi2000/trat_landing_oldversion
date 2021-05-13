@@ -12,10 +12,9 @@ const Pricing = () => {
           <div className="row">
             <div className="col-xl-8 col-lg-8 mx-auto">
               <div className="section-title text-center mb-80">
-                <h2>Pricing Plan</h2>
+                <h2>Pricing</h2>
                 <p>
-                  Lorem ipsum dolor sit amt, consectet adop adipisicing elit,
-                  sed do eiusmod more incididunt ugt labore.
+                  Our free version is fully functional and is the best place to start.
                 </p>
               </div>
             </div>
@@ -67,7 +66,7 @@ const Pricing = () => {
                         style={{ background: `url('${pricbg}')` }}
                       ></div>
                       <div className="price-header">
-                        <h4>Primary</h4>
+                        <h4>Basic</h4>
                         <h2>
                           $0<span className="sep">/</span>
                           <span>mo</span>
@@ -75,16 +74,15 @@ const Pricing = () => {
                       </div>
                       <div className="price-item-list">
                         <ul>
-                          <li>Life Time SSL</li>
-                          <li>1 Dedicated IP</li>
-                          <li>100 GB storage</li>
-                          <li>Unlimited Addons</li>
-                          <li>Windows Server</li>
+                          <li>10 Teams</li>
+                          <li>Unique Room Code (ie: UYXJ)</li>
+                          <li>All basic functions included</li>
+                          <li>Live action responses & marking</li>
                         </ul>
                       </div>
                       <div className="price-btn mt-35">
-                        <Link className="btn btn-type-5" to="#">
-                          <i className="fa fa-check"></i> order now
+                        <Link className="btn btn-type-5" to="/sign-up">
+                          <i className="fa fa-check"></i> Sign Up
                         </Link>
                       </div>
                     </div>
@@ -96,24 +94,24 @@ const Pricing = () => {
                         style={{ background: `url('${pricbg}')` }}
                       ></div>
                       <div className="price-header">
-                        <h4>popular</h4>
+                        <h4>Premium</h4>
                         <h2>
-                          $21<span className="sep">/</span>
+                          $15<span className="sep">/</span>
                           <span>mo</span>
                         </h2>
                       </div>
                       <div className="price-item-list">
                         <ul>
-                          <li>Life Time SSL</li>
-                          <li>1 Dedicated IP</li>
-                          <li>100 GB storage</li>
-                          <li>Unlimited Addons</li>
-                          <li>Windows Server</li>
+                          <li>Unlimited Teams</li>
+                          <li>Pre-enter and save questions to cloud</li>
+                          <li>Image mode</li>
+                          <li>Custom Unique Room Code (ie: JEFF)</li>
+                          <li>Custom Branding & Links</li>
                         </ul>
                       </div>
                       <div className="price-btn active mt-35">
                         <Link className="btn btn-type-5" to="#">
-                          <i className="fa fa-check"></i> order now
+                          <i className="fa fa-check"></i> signup
                         </Link>
                       </div>
                     </div>
@@ -125,24 +123,24 @@ const Pricing = () => {
                         style={{ background: `url('${pricbg}')` }}
                       ></div>
                       <div className="price-header">
-                        <h4>standard</h4>
+                        <h4>Enterprise</h4>
                         <h2>
-                          $69<span className="sep">/</span>
+                          $--<span className="sep">/</span>
                           <span>mo</span>
                         </h2>
                       </div>
                       <div className="price-item-list">
                         <ul>
-                          <li>Life Time SSL</li>
-                          <li>1 Dedicated IP</li>
-                          <li>100 GB storage</li>
-                          <li>Unlimited Addons</li>
-                          <li>Windows Server</li>
+                          <li>Admin Dashboard</li>
+                          <li>Manage Multiple Host Accounts</li>
+                          <li>Advanced Customizations</li>
+                          <li>Custom Domain Options</li>
+                          <li>All features from premium version</li>
                         </ul>
                       </div>
                       <div className="price-btn mt-35">
-                        <Link className="btn btn-type-5" to="#">
-                          <i className="fa fa-check"></i> order now
+                        <Link className="btn btn-type-5" to="/sign-up">
+                          <i className="fa fa-check"></i> signup
                         </Link>
                       </div>
                     </div>
@@ -179,8 +177,8 @@ const Pricing = () => {
                         </ul>
                       </div>
                       <div className="price-btn mt-35">
-                        <Link className="btn btn-type-5" to="#">
-                          <i className="fa fa-check"></i> order now
+                        <Link className="btn btn-type-5" to="/contact-us">
+                          <i className="fa fa-check"></i> contact us
                         </Link>
                       </div>
                     </div>

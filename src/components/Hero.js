@@ -1,5 +1,5 @@
 import React from "react";
-import homebg from "../img/hero/hero-bg-1.jpg";
+import homebg from "../img/hero/hero-bg-1.jpeg";
 import shape1 from "../img/hero/shape-1.png";
 import shape2 from "../img/hero/shape-2.png";
 import shape3 from "../img/hero/shape-3.png";
@@ -27,18 +27,17 @@ const Hero = () => {
             <div className="col-xl-7 col-lg-8 col-md-12">
               <div className="hero-content">
                 <h2>
-                  Apork <br /> Perfect Landing Page To Present App
+                  Simple Hosting Platform
                 </h2>
                 <p>
-                  Lorem ipsum dolor sit amt, consectet adop elit, sed do eius
-                  mod ididu There are many
+                  No apps required.  Get up and running in under a minute with your own unique link.
                 </p>
                 <div className="hero-btn">
                   <Link to="#" className="btn btn-type-2">
                     Read More
                   </Link>
-                  <Link to="#" className="btn btn-type-3">
-                    LEARN MORE
+                  <Link to="/sign-up" className="btn btn-type-3">
+                    Sign Up
                   </Link>
                 </div>
               </div>

@@ -12,10 +12,9 @@ const Screenshot = () => {
         <div className="row">
           <div className="col-xl-8 col-lg-8 mx-auto">
             <div className="section-title text-center mb-80">
-              <h2>App Screenshot</h2>
+              <h2>Screenshots</h2>
               <p>
-                Lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed
-                do eiusmod more incididunt ugt labore.
+                Take a look at some screenshots of the TriviaRat web-app. Both the hosting and player portal are mobile friendly!
               </p>
             </div>
           </div>
