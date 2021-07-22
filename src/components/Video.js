@@ -23,7 +23,7 @@ const Video = () => {
               <div className="apork-videos position-relative text-center">
                 <img src={videoimg} alt="" />
                 <div className="videos-icon-text">
-                  <h3>Walkthrough</h3>
+                  <h3 style={{color: "#ffffff", textShadow: '4px 4px #000000'}}>Walkthrough</h3>
                   <div
                     className="popup-video wow pulse infinite"
                     onClick={() => setOpen(true)}

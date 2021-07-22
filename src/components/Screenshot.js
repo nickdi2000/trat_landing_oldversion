@@ -4,8 +4,17 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import slimg1 from "../img/screen/screen-1.png";
 import slimg2 from "../img/screen/screen-2.png";
 import slimg3 from "../img/screen/screen-3.png";
+import sc1 from "../img/screen/sc1.png";
+import sc2 from "../img/screen/sc2.jpg";
+import sc3 from "../img/screen/sc3.jpg";
+import sc4 from "../img/screen/sc4.jpg";
+import sc5 from "../img/screen/sc5.jpg";
+import sc6 from "../img/screen/sc6.jpg";
+
 SwiperCore.use([Pagination, Autoplay, EffectCoverflow]);
 const Screenshot = () => {
+
+const screenshots = [sc1,sc2,sc3,sc4,sc5,sc6];
   return (
     <div id="apork-screenshot-area" className="apork-screenshot-area mb-110">
       <div className="container">
@@ -38,26 +47,13 @@ const Screenshot = () => {
                   slideShadows: false,
                 }}
               >
-                <SwiperSlide>
-                  <div className="slider-image">
-                    <img src={slimg1} alt="scimg" />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="slider-image">
-                    <img src={slimg2} alt="scimg" />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="slider-image">
-                    <img src={slimg3} alt="scimg" />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="slider-image">
-                    <img src={slimg1} alt="scimg" />
-                  </div>
-                </SwiperSlide>
+							    {screenshots.map((img, index) => (
+											  <SwiperSlide>
+				                  <div className="slider-image">
+				                    <img src={img} alt="scimg" />
+				                  </div>
+				                </SwiperSlide>
+							    ))}
               </Swiper>
             </div>
           </div>

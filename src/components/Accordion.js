@@ -11,8 +11,7 @@ const Accordion = () => {
               <div className="section-title text-center mb-80">
                 <h2>faqs</h2>
                 <p>
-                  Lorem ipsum dolor sit amt, consectet adop adipisicing elit,
-                  sed do eiusmod more incididunt ugt labore.
+                  If these FAQs don't answer your questions.  Feel free to <a href='https://triviarat.com/contact-us'>Contact Us</a> Directly.
                 </p>
               </div>
             </div>

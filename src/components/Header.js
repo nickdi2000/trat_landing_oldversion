@@ -60,116 +60,28 @@ const Header = () => {
                           home
                         </Link>
                       </li>
-                      <li className="nav-item">
-                        <Link
+
+											<li className="nav-item">
+                        <a
                           className="nav-link"
-                          to={`${process.env.PUBLIC_URL + "/about"}`}
+                          href="https://triviarat.com/how-to-play.html"
                         >
-                          About
-                        </Link>
-                      </li>
-                      <li className="nav-item dropdown">
-                        <Link
-                          className="nav-link dropdown-toggle"
-                          to="#"
-                          id="navbarDropdown"
-                          role="button"
-                          data-toggle="dropdown"
-                          aria-haspopup="true"
-                          aria-expanded="false"
-                        >
-                          Pages
-                        </Link>
-                        <div
-                          className="dropdown-menu"
-                          aria-labelledby="navbarDropdown"
-                        >
-                          <Link
-                            className="dropdown-item"
-                            to={`${process.env.PUBLIC_URL + "/pricing"}`}
-                          >
-                            Pricing
-                          </Link>
-                          <div className="dropdown-divider"></div>
-                          <Link
-                            className="dropdown-item"
-                            to={`${process.env.PUBLIC_URL + "/error"}`}
-                          >
-                            Error
-                          </Link>
-                        </div>
+                          User Guide
+                        </a>
                       </li>
 
                       <li className="nav-item">
                         <Link
                           className="nav-link"
-                          to={`${process.env.PUBLIC_URL + "/features"}`}
-                        >
-                          Features
-                        </Link>
-                      </li>
-
-                      <li className="nav-item dropdown">
-                        <Link
-                          className="nav-link dropdown-toggle"
-                          to="#"
-                          id="navbarDropdown"
-                          role="button"
-                          data-toggle="dropdown"
-                          aria-haspopup="true"
-                          aria-expanded="false"
+                          to="https://blog.triviarat.com/"
                         >
                           Blog
                         </Link>
-                        <div
-                          className="dropdown-menu"
-                          aria-labelledby="navbarDropdown"
-                        >
-                          <Link
-                            className="dropdown-item"
-                            to={`${process.env.PUBLIC_URL + "/blog-list"}`}
-                          >
-                            Blog List
-                          </Link>
-                          <div className="dropdown-divider"></div>
-                          <Link
-                            className="dropdown-item"
-                            to={`${process.env.PUBLIC_URL + "/blog-grid"}`}
-                          >
-                            blog grid
-                          </Link>
-                          <div className="dropdown-divider"></div>
-                          <Link
-                            className="dropdown-item"
-                            to={`${process.env.PUBLIC_URL + "/blog-details"}`}
-                          >
-                            blog details
-                          </Link>
-                        </div>
                       </li>
 
-                      <li className="nav-item">
-                        <Link
-                          className="nav-link"
-                          to={`${process.env.PUBLIC_URL + "/contact"}`}
-                        >
-                          Contact
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          id="search-btn"
-                          className="nav-link"
-                          to="#"
-                          onClick={classadd}
-                        >
-                          <i className="fa fa-search"></i>
-                        </Link>
-                      </li>
                       <li className="header-top-btn nav-item">
-                        <Link to="#" className="btn btn-type-1">
-                          download <i className="fa fa-download"></i>
+                        <Link to="https://triviarat.com/sign-up" className="btn btn-type-1">
+                          Login <i className="fa fa-user"></i>
                         </Link>
                       </li>
                     </ul>

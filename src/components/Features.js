@@ -24,7 +24,7 @@ const Features = () => {
               <div className="section-title text-center mb-80">
                 <h2>Features</h2>
                 <p>
-                  TriviaRat is dirt-simple at first glance. As you become more comfortable, you may decide to spice things up.
+                  At first glance, TriviaRat is dirt-simple. As you become more comfortable, you may decide to spice things up.
                 </p>
               </div>
             </div>
