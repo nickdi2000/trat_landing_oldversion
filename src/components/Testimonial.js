@@ -7,6 +7,16 @@ import climg1 from "../img/testimonial/client-1.png";
 import climg2 from "../img/testimonial/client-2.png";
 import testibg from "../img/testimonial/testimonial-bg.png";
 const Testimonial = () => {
+
+	const reviews = [
+		{
+			"text": "I started with TR when I moved to zoom, but when returning to the pub, I never came up with a good reason to go back to paper/pen :)",
+			"name": "CrazyTalk Trivia",
+			"url": "https://www.instagram.com/crazytalk_trivia/",
+			"url_title": "CT Trivia"
+		}
+	];
+
   return (
     <>
       <div
@@ -25,20 +35,26 @@ const Testimonial = () => {
                   margin={10}
                   autoplay={true}
                 >
-                  <div className="single-testimonial">
-                    <p>
-                      is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout. The point of using Lorem
-                    </p>
-                    <div className="title-desig">
-                      <h4>
-                        Daniel Wells <span>developer</span>
-                      </h4>
-                    </div>
-                    <img src={climg1} alt="clientimg" />
-                  </div>
+											{reviews.map(function(d, idx){
+								         return (
+													 	    <div className="single-testimonial">
+							                    <p>
+							                     "{d.text}"
+							                    </p>
+							                    <div className="title-desig">
+							                      <h4>
+							                        {d.name} <span>Trivia Host</span>
+							                      </h4>
+							                    </div>
+																	  {/*<img src={climg1} alt="clientimg" />*/}
+																	<p>
+																		<a href={d.url} className="btn btn-type-3">{d.url_title}</a>
+																	</p>
+							                  </div>
 
+												 )
+								       })}
+											 {/*
                   <div className="single-testimonial">
                     <p>
                       is a long established fact that a reader will be
@@ -50,9 +66,15 @@ const Testimonial = () => {
                         Wells mark <span>designer</span>
                       </h4>
                     </div>
-                    <img src={climg2} alt="clientimg" />
                   </div>
+									*/}
+
+
                 </OwlCarousel>
+
+
+
+
               </div>
             </div>
           </div>

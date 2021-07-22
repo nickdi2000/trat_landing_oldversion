@@ -19,9 +19,9 @@ const Cta = () => {
                   Give it a shot! <i className="fa fa-long-arrow-right"></i>
                 </h3>
                 <div className="cta-btn float-right">
-                  <Link to="/sign-up" className="btn btn-type-4">
+                  <a href="https://triviarat.com/sign-up" className="btn btn-type-4">
                     Sign-up <i className="fa fa-signup"></i>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>

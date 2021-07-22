@@ -19,7 +19,9 @@ const Pricing = () => {
               </div>
             </div>
           </div>
+
           <div className="price-tab">
+							{/*
             <div className="price-menu-box text-center">
               <ul className="nav price-nav mb-40" id="myTab" role="tablist">
                 <li className="nav-item">
@@ -50,6 +52,7 @@ const Pricing = () => {
                 </li>
               </ul>
             </div>
+						*/}
 
             <div className="tab-content" id="myTabContent">
               <div
@@ -81,9 +84,9 @@ const Pricing = () => {
                         </ul>
                       </div>
                       <div className="price-btn mt-35">
-                        <Link className="btn btn-type-5" to="/sign-up">
+                        <a className="btn btn-type-5" href="https://triviarat.com/sign-up">
                           <i className="fa fa-check"></i> Sign Up
-                        </Link>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -139,9 +142,9 @@ const Pricing = () => {
                         </ul>
                       </div>
                       <div className="price-btn mt-35">
-                        <Link className="btn btn-type-5" to="/sign-up">
-                          <i className="fa fa-check"></i> signup
-                        </Link>
+                        <a className="btn btn-type-5" href="https://triviarat.com/contact-us">
+                          <i className="fa fa-check"></i> contact
+                        </a>
                       </div>
                     </div>
                   </div>

@@ -71,18 +71,18 @@ const Header = () => {
                       </li>
 
                       <li className="nav-item">
-                        <Link
+                        <a
                           className="nav-link"
-                          to="https://blog.triviarat.com/"
+                          href="https://blog.triviarat.com/"
                         >
                           Blog
-                        </Link>
+                        </a>
                       </li>
 
                       <li className="header-top-btn nav-item">
-                        <Link to="https://triviarat.com/sign-up" className="btn btn-type-1">
+                        <a href="https://triviarat.com/sign-up" className="btn btn-type-1">
                           Login <i className="fa fa-user"></i>
-                        </Link>
+                        </a>
                       </li>
                     </ul>
                   </div>

@@ -27,11 +27,7 @@ const Home = () => {
         <Screenshot />
         <Cta />
         <Pricing />
-        <Accordion />
         <Testimonial />
-        <Blog />
-        <Subscribe />
-        <Client />
         <Footer />
       </main>
       <Scrolltop />

@@ -24,31 +24,31 @@ const Footer = () => {
             <div className="col-xl-3 col-lg-4 col-md-4 col-sm-12">
               <div className="footer-widget widget-1">
                 <div className="footer-logo">
-                  <Link to="#">
-                    <img src={brand2} alt="footer-logo" className="img-fluid" />
-                  </Link>
+                  <a to="#">
+                    {/*<img src={brand2} alt="footer-logo" className="img-fluid" />*/}
+										<h2 className="img-fluid" style={{color: 'white'}}>TriviaRat.com</h2>
+                  </a>
                 </div>
 
                 <p>
-                  But I must explain to you how all this mistaken idea of
-                  denouncing asure and praising pain was born and I will give
-                  you a
+                	"The enthusiasm and confidence you bring to our table on trivia nights is rivaled only by the impressive consistency with which you are always wrong"<br/>
+									<i>-Anonymous Host</i>
                 </p>
                 <ul className="footer-social">
                   <li>
-                    <Link to="#">
+                    <a href="https://facebook.com/triviarat">
                       <i className="fa fa-facebook"></i>
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link to="#">
+                    <a to="https://twitter.com/triviarat">
                       <i className="fa fa-twitter"></i>
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link to="#">
+                    <a to="https://instagram.com/triviarat">
                       <i className="fa fa-instagram "></i>
-                    </Link>
+                    </a>
                   </li>
                   <li>
                     <Link to="#">
@@ -64,48 +64,43 @@ const Footer = () => {
                 <div className="media-box">
                   <div className="media">
                     <div className="media-left pull-left">
-                      <Link to="#">
-                        <img className="media-object" src={limg1} alt="img" />
-                      </Link>
+
                     </div>
                     <div className="media-body">
                       <Link to="#" className="media-heading">
-                        latest news here
+                        Wagering now Available
                       </Link>
-                      <div className="post-date">22 Mar, 2010</div>
+                      <div className="post-date">22 Apr, 2021</div>
                     </div>
                   </div>
 
                   <div className="media">
                     <div className="media-left pull-left">
-                      <Link to="#">
-                        <img className="media-object" src={limg2} alt="img" />
-                      </Link>
+
                     </div>
                     <div className="media-body">
                       <Link className="media-heading" to="#">
-                        latest news here
+                        More Automatic Questions!
                       </Link>
-                      <div className="post-date">21 Dec, 2019</div>
+                      <div className="post-date">21 Jan, 2021</div>
                     </div>
                   </div>
 
                   <div className="media">
                     <div className="media-left pull-left">
-                      <Link to="#">
-                        <img className="media-object" src={limg3} alt="img" />
-                      </Link>
+
                     </div>
                     <div className="media-body">
                       <Link className="media-heading" to="#">
-                        latest news here
+                        Video Streaming now availlable!
                       </Link>
-                      <div className="post-date">15 Jan, 2011</div>
+                      <div className="post-date">15 Feb, 2021</div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+						{/*
             <div className="col-xl-4 offset-xl-1 col-lg-5 col-md-4 col-sm-12">
               <div className="footer-widget widget-2">
                 <h3>Gallery Image</h3>
@@ -143,13 +138,16 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
+						*/}
           </div>
+
+
           <div className="row">
             <div className="col-xl-12 col-lg-12">
               <div className="footer-copyright text-center pt-40 pb-40">
                 <p>
-                  &copy; 2020 All Right Reserved by{" "}
-                  <Link to="#">theme_group</Link>
+                  &copy; 2021 All Right Reserved by{" "}
+                  <a href="https://triviarat.com/">TriviaRat.com</a>
                 </p>
               </div>
             </div>

@@ -44,7 +44,7 @@ const history = useHistory();
             <div className="col-xl-7 col-lg-8 col-md-12">
               <div className="hero-content">
                 <h2>
-                  Simple Trivia Hosting
+                  Trivia Hosting Platform
                 </h2>
                 <p>
                   No apps required.  Create your own unique link and start hosting in seconds.
