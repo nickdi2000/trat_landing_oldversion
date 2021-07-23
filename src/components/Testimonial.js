@@ -10,10 +10,17 @@ const Testimonial = () => {
 
 	const reviews = [
 		{
+			"text": `We cannot not say enough good things about Trivia Rat. They've made hosting a breeze and increased brand awareness and acquiring new social media followers tenfold. Trivia Rat kept Hub of the Hammer Event Planning alive during the pandemic and we're thrilled to keep partnering with them in whatever comes next`,
+			"name": "Hub of the Hammer",
+			"type": "Event Planning",
+			"url": "www.hubofthehammer.com",
+			"url_title" : "hubofthehammer.com"
+		}
+		{
 			"text": "I started with TR when I moved to zoom, but when returning to the pub, I never came up with a good reason to go back to paper/pen :)",
 			"name": "CrazyTalk Trivia",
 			"url": "https://www.instagram.com/crazytalk_trivia/",
-			"url_title": "CT Trivia"
+			"url_title": "@CTTrivia"
 		}
 	];
 
@@ -43,7 +50,7 @@ const Testimonial = () => {
 							                    </p>
 							                    <div className="title-desig">
 							                      <h4>
-							                        {d.name} <span>Trivia Host</span>
+							                        {d.name} <span>{d.type}</span>
 							                      </h4>
 							                    </div>
 																	  {/*<img src={climg1} alt="clientimg" />*/}
