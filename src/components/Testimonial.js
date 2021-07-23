@@ -15,7 +15,7 @@ const Testimonial = () => {
 			"type": "Event Planning",
 			"url": "www.hubofthehammer.com",
 			"url_title" : "hubofthehammer.com"
-		}
+		},
 		{
 			"text": "I started with TR when I moved to zoom, but when returning to the pub, I never came up with a good reason to go back to paper/pen :)",
 			"name": "CrazyTalk Trivia",
