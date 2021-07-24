@@ -10,7 +10,7 @@ import Blogdetails from "./pages/Blogdetails";
 import Contact from "./pages/Contact";
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <Switch>
         <Route
           exact path={`${process.env.PUBLIC_URL + "/about"}`} component={About}
