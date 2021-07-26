@@ -3,6 +3,8 @@ import abouticon from "../img/about/about-icon-1.png";
 import joeys from "../img/about/joeys.gif";
 import about1 from "../img/about/about-1.png";
 import {Link} from "react-router-dom";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 const About = () => {
   return (
     <>
@@ -21,7 +23,10 @@ const About = () => {
           <div className="row">
             <div className="col-xl-6 col-lg-6 wow fadeInLeft">
               <div className="about-img">
-                <img src={joeys} alt="about-1" />
+                 <LazyLoadImage
+								 	src={joeys}
+									alt="Player-view"
+									/>
               </div>
             </div>
             <div className="col-xl-6 col-lg-6 wow fadeInRight">
