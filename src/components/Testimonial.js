@@ -17,10 +17,27 @@ const Testimonial = () => {
 			"url_title" : "hubofthehammer.com"
 		},
 		{
-			"text": "I started with TR when I moved to zoom, but when returning to the pub, I never came up with a good reason to go back to paper/pen :)",
+		"text":`TriviaRat gave us something to look forward to during COVID Lockdown!
+			It was so easy to setup and run, in my second Quiz Night I had over 60 people joining in for a night of fun, smiles and questions!
+			All the participants found it so easy to use too!`,
+			"name": "Adam",
+			"type": "Lockdown Trivia",
+			},
+			{
+			"text": "TriviaRat has kept us alive during lockdown! We'll continue to use it onsite as it does everything we need, and its very user friendly.",
+			"name": "Sunset Trivia",
+			"type": "Trivia Company",
+			"url_title": "Sunset Trivia",
+			"url" : "https://www.facebook.com/sunset.trivia/",
+
+		},
+			{
+			"text": "I started with TR when I moved to zoom, and i've continued to use it at the restaurants because i hate buying a new set of pens every week :)",
 			"name": "CrazyTalk Trivia",
-			"url": "https://www.instagram.com/crazytalk_trivia/",
-			"url_title": "@CTTrivia"
+			"type": "Trivia Host",
+			"url_title": "@Crazytalk_trivia",
+			"url" : "https://instagram.com/crazytalk_trivia",
+
 		}
 	];
 
@@ -50,13 +67,15 @@ const Testimonial = () => {
 							                    </p>
 							                    <div className="title-desig">
 							                      <h4>
-							                        {d.name} <span>{d.type}</span>
+							                        {d.name} {d.type ? <span>{d.type}</span> : null}
 							                      </h4>
 							                    </div>
 																	  {/*<img src={climg1} alt="clientimg" />*/}
-																	<p>
-																		<a href={d.url} className="btn btn-type-3">{d.url_title}</a>
-																	</p>
+																	{d.url ?
+																		<p>
+																		<a href={d.url}  className="btn" data-style={{color: 'white', textDecorationLine: 'underline'}}>{d.url_title}</a>
+																	</p> : null }
+
 							                  </div>
 
 												 )
