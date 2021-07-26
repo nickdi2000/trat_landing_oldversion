@@ -24,6 +24,15 @@ const Testimonial = () => {
 			"type": "Lockdown Trivia",
 			},
 			{
+				"text": `Trivia Rat has been essentially to me over this past year! It helped me continue to provide fun trivia games virtually during lockdown. It's easy to use, has a variety of settings for personalisation, and the creators have always been helpful`,
+				"name": "BeccaHosts",
+				"instagram": "@BeccaHosts",
+				"facebook": "http://www.beccahosts.com/BeccaHosts/",
+				"url_title": "BeccaHosts.com",
+				"url": "beccahosts.com",
+				"type": "Entertainment",
+			},
+			{
 			"text": "TriviaRat has kept us alive during lockdown! We'll continue to use it onsite as it does everything we need, and its very user friendly.",
 			"name": "Sunset Trivia",
 			"type": "Trivia Company",
