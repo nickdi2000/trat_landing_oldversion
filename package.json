@@ -1,7 +1,7 @@
 {
   "name": "apork",
   "version": "0.1.0",
-  "homepage": ".",
+  "homepage": "https://landing.triviarat.com/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -13,6 +13,7 @@
     "react": "^17.0.1",
     "react-countup": "^4.3.3",
     "react-dom": "^17.0.1",
+    "react-lazy-load-image-component": "^1.5.1",
     "react-modal-video": "^1.2.6",
     "react-owl-carousel": "^2.3.1",
     "react-router-dom": "^5.2.0",
@@ -25,7 +26,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-		"deploy": "npm install && npm run build && rm -rf ..public_html && mv build ../public_html"
+    "deploy": "npm install && npm run build && rm -rf ..public_html && mv build ../public_html"
   },
   "eslintConfig": {
     "extends": [
