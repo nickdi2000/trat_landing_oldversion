@@ -30,7 +30,7 @@ const About = () => {
               </div>
             </div>
             <div className="col-xl-6 col-lg-6 wow fadeInRight">
-              <div className="about-content mt-110 mb-90">
+              <div className="about-content mt-110 mb-90 center">
                 <img src={abouticon} alt="" />
                 <h3>
                   Hosting a trivia night should be <span>simple</span>
@@ -39,9 +39,11 @@ const About = () => {
                   Instruct your players to navigate to <strong>TriviaRat.com/yourcode</strong> where they can enter their team name.
 									It's all downhill from there: just start announcing your questions and watch as the responses appear in real-time.
                 </p>
+								<div className="d-flex justify-content-center mb-5">
                 <a href="https://triviarat.com/sign-up" className="btn btn-type-2 mt-30">
                   Start Hosting!
                 </a>
+								</div>
               </div>
             </div>
           </div>

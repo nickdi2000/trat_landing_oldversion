@@ -50,10 +50,10 @@ const history = useHistory();
                   No apps required.  Create your own unique link and start hosting in seconds.
                 </p>
                 <div className="hero-btn">
-                  <a href="https://triviarat.com/sign-up" className="btn btn-type-2">
+                  <a href="https://triviarat.com/sign-up" className="btn btn-type-2 mt-2">
                     Host Sign-up
                   </a>
-                  <button className="btn btn-type-3" onClick={onClick}>
+                  <button className="btn btn-type-3 mt-2" onClick={onClick}>
                     Join a Game!
                   </button>
                 </div>

@@ -33,7 +33,7 @@ const Header = () => {
                     className="navbar-brand"
                     to={`${process.env.PUBLIC_URL + "/"}`}
                   >
-                    <img src={brand} alt="brandimg" />
+                    <img src={brand} alt="brandimg" className="brand-logo"/>
                   </Link>
                   <button
                     className="navbar-toggler"
@@ -92,27 +92,7 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="search-form-area" id="search-overlay">
-          <div className="search-form-centered">
-            <div id="search-box">
-              <i
-                id="close-btn"
-                className="fa fa-times fa-2x"
-                onClick={classdelet}
-              />
-              <form className="search-form">
-                <input
-                  className="form-control"
-                  placeholder="Type your text"
-                  type="text"
-                />
-                <button type="submit">
-                  <span>Search</span>
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
+
       </header>
     </>
   );

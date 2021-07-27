@@ -7,7 +7,7 @@
 4.	header area css
 5.	main menu area css
 i. sub menu
-6.	search form area css 
+6.	search form area css
 7.	hero area css
 8.	about area css
 9.	counter area css
@@ -81,7 +81,9 @@ a:focus,
 a:hover {
   text-decoration: none;
 }
-
+a.navbar-brand {
+  display: contents;
+}
 .btn:focus,
 button:focus,
 input:focus,

@@ -23,11 +23,10 @@ const Home = () => {
         <Hero />
         <About />
         <Features />
+				<Testimonial />
         <Video />
-        <Screenshot />
         <Cta />
         <Pricing />
-        <Testimonial />
         <Footer />
       </main>
       <Scrolltop />

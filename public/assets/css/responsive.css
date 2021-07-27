@@ -257,6 +257,12 @@
 
 /* SM Device :480px. */
 @media (max-width: 575px) {
+
+
+	.brand-logo{
+			transform: scale(0.8);
+	}
+
   nav.main-menu li.header-top-btn {
     margin-left: 0px;
   }
