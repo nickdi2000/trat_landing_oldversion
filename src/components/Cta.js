@@ -2,7 +2,7 @@ import React from "react";
 import ctabg from "../img/cta/cta-bg.png";
 import { Link } from "react-router-dom";
 
-const Cta = () => {
+const Cta = ({url}) => {
   return (
     <>
       <div
@@ -19,7 +19,7 @@ const Cta = () => {
                   Give it a shot! <i className="fa fa-long-arrow-right"></i>
                 </h3>
                 <div className="cta-btn float-right">
-                  <a href="https://triviarat.com/sign-up" className="btn btn-type-4">
+                  <a href={url} className="btn btn-type-4">
                     Sign-up <i className="fa fa-signup"></i>
                   </a>
                 </div>

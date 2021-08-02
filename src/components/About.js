@@ -5,7 +5,7 @@ import about1 from "../img/about/about-1.png";
 import {Link} from "react-router-dom";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
-const About = () => {
+const About = ({url}) => {
   return (
     <>
       <div id="apork-about-area" className="apork-about-area mt-230">
@@ -40,7 +40,7 @@ const About = () => {
 									It's all downhill from there: just start announcing your questions and watch as the responses appear in real-time.
                 </p>
 								<div className="d-flex justify-content-center mb-5">
-                <a href="https://triviarat.com/sign-up" className="btn btn-type-2 mt-30">
+                <a href={url} className="btn btn-type-2 mt-30">
                   Start Hosting!
                 </a>
 								</div>

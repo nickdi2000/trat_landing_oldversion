@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import Scrolltop from "../components/Scrolltop";
 import Pricing2 from "../components/Pricing2";
 
-const Pricing = () => {
+const Pricing = ({url}) => {
   return (
     <>
       <Header />

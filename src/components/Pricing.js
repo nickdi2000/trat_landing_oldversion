@@ -1,7 +1,7 @@
 import React from "react";
 import pricbg from "../img/prictable/prictable-bg.png";
 import { Link } from "react-router-dom";
-const Pricing = () => {
+const Pricing = ({url}) => {
   return (
     <>
       <div
@@ -84,7 +84,7 @@ const Pricing = () => {
                         </ul>
                       </div>
                       <div className="price-btn mt-35">
-                        <a className="btn btn-type-5" href="https://triviarat.com/sign-up">
+                        <a className="btn btn-type-5" href={url}>
                           <i className="fa fa-check"></i> Sign Up
                         </a>
                       </div>
@@ -113,9 +113,9 @@ const Pricing = () => {
                         </ul>
                       </div>
                       <div className="price-btn active mt-35">
-                        <Link className="btn btn-type-5" to="#">
-                          <i className="fa fa-check"></i> signup
-                        </Link>
+                          <a className="btn btn-type-5" href={url}>
+	                          <i className="fa fa-check"></i> Sign Up
+	                        </a>
                       </div>
                     </div>
                   </div>

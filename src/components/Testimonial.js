@@ -70,7 +70,7 @@ const Testimonial = () => {
                 >
 											{reviews.map(function(d, idx){
 								         return (
-													 	    <div className="single-testimonial">
+													 	    <div className="single-testimonial" key={idx}>
 							                    <p>
 							                     "{d.text}"
 							                    </p>
